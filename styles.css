@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+   display:flex; 
+   justify-content:center;
+   align-items: center;
+   height:100vh;
+   width:100vw;
+   background-color: #192a32;
+}
+h1{
+    height:100%;
+    width:100%;
+    font-size: 60px;
+    line-height: 50px;
+    padding-top: 10px; /*centered the h1 somehow */
+}
+/*---------------------------------------classes----------------------------------------*/
+.txt-center{
+    text-align: center;
+}
+/* .txt-col-{
+    color:#35bfbe;
+}
+.txt-c-b{
+    color:#e4ad46;
+} */
+.flex-r{
+    display: flex;
+}
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+.top-row{
+    margin:2px;
+    justify-content: space-between;
+    padding:5px 8px;
+}
+.row{
+    margin:2px;
+    justify-content: space-between;
+    padding:3px;
+}
+.block{
+    border:1px solid #192a32;
+    text-align: center;
+    padding:5px;
+    height:70px;
+    width:33.33%;
+    margin:5px;
+    color:white;
+    /* display:flex; 
+    justify-content:center;
+    align-items: center; */
+}
+.block_sty{
+    background-color:#1f3540;
+    border-radius:10px;
+    box-shadow:0px 3px #0e202a;
+}
+/*------------------------------------------ids-------------------------------------*/
+#container{
+    display:inline-block;
+    
+    width:20rem;
+}
+#turn-indicator{
+    padding:5px;
+}
+/*--------------------------------- relative stylings----------------------------------------------*/
+.block:hover{
+    border:1px solid grey;
+}
